@@ -1,0 +1,24 @@
+[project]
+name = "model-serving-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "asyncio>=4.0.0",
+    "fastapi>=0.135.2",
+    "numpy>=2.4.4",
+    "onnx>=1.21.0",
+    "onnxruntime>=1.24.4",
+    "onnxscript>=0.6.2",
+    "requests>=2.33.0",
+    "streamlit>=1.56.0",
+    "transformers>=5.5.0",
+    "uvicorn>=0.42.0",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu124"
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
