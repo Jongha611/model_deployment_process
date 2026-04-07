@@ -15,6 +15,6 @@ Q4. Day 1~8 중 가장 많이 참고한 Day는 어디였습니까? 왜?
 
 Q5. 이 서비스를 실제로 배포하려면 추가로 무엇이 필요합니까?
 - 결제 모듈
-
+```
 ### 이미지
 <img width="1919" height="835" alt="image" src="https://github.com/user-attachments/assets/3eb3e057-848b-4f5d-8510-37ef3b22ce54" />
